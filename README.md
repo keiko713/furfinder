@@ -9,8 +9,9 @@ Find furs! 🐕🐈
 python -m venv .venv
 . .venv/bin/activate
 
-# Install Flask
+# Install Flask and SQLAlchemy
 pip install Flask
+pip install Flask-SQLAlchemy
 
 # Run app
 flask --app app run
